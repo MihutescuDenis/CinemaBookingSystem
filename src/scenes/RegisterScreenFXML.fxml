@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="664.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.LoginScreenController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/img/loginBG.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="970.0" layoutY="14.0" onMouseClicked="#exitButton" text="X" textFill="#f50101">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+          <cursor>
+              <Cursor fx:constant="HAND" />
+          </cursor>
+      </Label>
+       <AnchorPane layoutX="559.0" layoutY="194.0" opacity="0.7" prefHeight="257.0" prefWidth="330.0" style="-fx-background-color: #322a1f;">
+         <children>
+            <TextField fx:id="registerFname" layoutX="16.0" layoutY="47.0" prefHeight="25.0" prefWidth="130.0" promptText="FirstName" style="-fx-background-color: white;" />
+            <TextField fx:id="registerLname" layoutX="16.0" layoutY="79.0" prefHeight="25.0" prefWidth="130.0" promptText="LastName" style="-fx-background-color: white;" />
+             <TextField fx:id="registerUsername" layoutX="184.0" layoutY="47.0" prefHeight="25.0" prefWidth="130.0" promptText="Username" style="-fx-background-color: white;" />
+            <PasswordField fx:id="registerPassword" layoutX="184.0" layoutY="79.0" prefHeight="25.0" prefWidth="130.0" promptText="Password" style="-fx-background-color: white;" />
+            <TextField fx:id="registerEmail" layoutX="16.0" layoutY="116.0" prefHeight="25.0" prefWidth="297.0" promptText="Email" style="-fx-background-color: white;" />
+             <Button fx:id="registerButton" layoutX="12.0" layoutY="167.0" mnemonicParsing="false" onAction="#registerClick" prefHeight="39.0" prefWidth="138.0" style="-fx-background-color: #4d4d4d;" text="Register" textFill="#ebdfdf">
+                 <font>
+                     <Font size="18.0" />
+                 </font>
+             </Button>
+             <Button fx:id="logInButton" layoutX="173.0" layoutY="167.0" mnemonicParsing="false" onAction="#goLogin" prefHeight="39.0" prefWidth="138.0" style="-fx-background-color: #4d4d4d;" text="Go to login" textAlignment="CENTER" textFill="#ebdfdf">
+                 <font>
+                     <Font size="18.0" />
+                 </font>
+             </Button>
+             <Label layoutX="114.0" text="REGISTER" textAlignment="CENTER" textFill="WHITE">
+                 <font>
+                     <Font size="24.0" />
+                 </font>
+             </Label>
+         </children>
+       </AnchorPane>
+   </children>
+</AnchorPane>

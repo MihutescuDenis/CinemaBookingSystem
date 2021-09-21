@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="830.0" prefWidth="1000.0" style="-fx-background-color: #303030;" styleClass="BGUserAdminPanel" stylesheets="@../res/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.UserAdminSceenController">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <children>
+      <TableView fx:id="userTabelViev" layoutX="280.0" layoutY="16.0" onMouseClicked="#selectedFieldOnTabel" prefHeight="799.0" prefWidth="700.0" styleClass="table-viewUserAdminPanel" stylesheets="@../res/style.css">
+        <columns>
+          <TableColumn fx:id="colID" prefWidth="100.0" text="id" />
+          <TableColumn fx:id="colFirstName" prefWidth="100.0" text="firstName" />
+            <TableColumn fx:id="colLastName" prefWidth="100.0" text="LastName" />
+            <TableColumn fx:id="colUsername" prefWidth="100.0" text="username" />
+            <TableColumn fx:id="colPassword" prefWidth="100.0" text="password" />
+            <TableColumn fx:id="colEmail" prefWidth="199.0" text="email" />
+        </columns>
+      </TableView>
+      <TextField fx:id="idText" alignment="CENTER" layoutX="58.0" layoutY="278.0" promptText="id" styleClass="buttonUserAdminPanel" stylesheets="@../res/style.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="firstNameText" alignment="CENTER" layoutX="58.0" layoutY="309.0" promptText="firstName" styleClass="buttonUserAdminPanel" stylesheets="@../res/style.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="lastNameText" alignment="CENTER" layoutX="58.0" layoutY="340.0" promptText="lastName" styleClass="buttonUserAdminPanel" stylesheets="@../res/style.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="usernameText" alignment="CENTER" layoutX="58.0" layoutY="371.0" promptText="username" styleClass="buttonUserAdminPanel" stylesheets="@../res/style.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="passwordText" alignment="CENTER" layoutX="58.0" layoutY="402.0" promptText="password" styleClass="buttonUserAdminPanel" stylesheets="@../res/style.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="emailText" alignment="CENTER" layoutX="58.0" layoutY="433.0" promptText="email" styleClass="buttonUserAdminPanel" stylesheets="@../res/style.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <Button fx:id="updateBtn" layoutX="58.0" layoutY="466.0" mnemonicParsing="false" onAction="#update" prefHeight="25.0" prefWidth="76.0"  styleClass="custom-button2" stylesheets="@../res/style.css" text="Update" />
+      <Button fx:id="deleteBtn" layoutX="147.0" layoutY="466.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="83.0"  styleClass="custom-button2" stylesheets="@../res/style.css" text="Delete" />
+   </children>
+</AnchorPane>

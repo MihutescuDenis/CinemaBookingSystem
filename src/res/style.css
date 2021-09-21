@@ -1,0 +1,84 @@
+.leftVboxAdminPanel{
+  -fx-background-image: url("img/VBOX.png");
+ /*-fx-background-color: black;*/
+ /*-fx-background-repeat: stretch;*/
+ /*-fx-background-size: 1200 700;*/
+ /*-fx-background-position: center center;*/
+}
+
+.custom-button {
+ -fx-font: 16px "Arial Black";
+ -fx-padding: 2;
+ -fx-background-image: url("img/buton.png");
+ -fx-background-color:transparent;
+ -fx-text-fill: #240046;
+}
+
+.custom-button2 {
+ -fx-font: 16px "Arial Black";
+ -fx-padding: 2;
+ -fx-background-image: url("img/buton2.png");
+ /*-fx-background-color:#ff8500;*/
+ -fx-background-color:transparent;
+ -fx-text-fill: #240046;
+}
+
+.topHboxAdminPanel{
+  -fx-background-image: url("img/HBOX.png");
+ /*-fx-background-color: black;*/
+ /*-fx-background-repeat: stretch;*/
+ /*-fx-background-size: 1200 700;*/
+ /*-fx-background-position: center center;*/
+}
+
+.topLabelAdminPanel{
+ -fx-font: 31px "Arial Black";
+ -fx-text-fill: #ff8500;
+}
+.buttonUserAdminPanel{
+  /*-fx-background-image: url("img/buton2.png");*/
+ -fx-font: 14px "Arial Black";
+ -fx-padding: 2;
+ -fx-text-fill: #240046;
+ -fx-background-color:transparent;
+}
+
+.table-viewUserAdminPanel{
+ /* -fx-background-image: url("img/cinemaPattern.jpg");*/
+ -fx-font: 14px "Arial Black";
+ -fx-text-fill: white;
+ -fx-background-size: 1200 700;
+}
+
+.BGUserAdminPanel{
+ -fx-background-image: url("img/user3.png");
+}
+
+.BGViewSelectedMovie{
+ -fx-background-image: url("img/movie2.png");
+ /*-fx-background-repeat: stretch;*/
+ /*-fx-background-size: 1200 700;*/
+ /*-fx-background-position: center center;*/
+}
+
+.BGHomeAdminPanel{
+ -fx-background-image: url("img/home.png");
+ -fx-background-position: center center;
+ -fx-background-size: 1000 830;
+ -fx-background-repeat: no-repeat;
+}
+
+.BGMovieAdminPanel{
+ /*-fx-background-color: #7b2cbf;*/
+ -fx-background-image: url("img/movbg.png");
+}
+
+.BGBookingScene{
+ -fx-background-image: url("img/select3.png");
+}
+.buttonBookingScene{
+ -fx-font: 16px "Arial Black";
+ -fx-background-image: url("img/buton.png");
+ -fx-background-color:transparent;
+ -fx-text-fill: #36025a;
+}

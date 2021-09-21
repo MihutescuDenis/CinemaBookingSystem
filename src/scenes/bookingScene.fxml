@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1200.0" styleClass="BGBookingScene" stylesheets="@../res/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.bookingController">
+   <children>
+      <Pane layoutX="600.0" layoutY="6.0" prefHeight="655.0" prefWidth="498.0">
+         <children>
+            <ImageView fitHeight="821.0" fitWidth="495.0" layoutX="2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../res/img/cinemaEcran.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="seat1" fitHeight="75.0" fitWidth="75.0" layoutX="24.0" layoutY="219.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat2" fitHeight="75.0" fitWidth="75.0" layoutX="125.0" layoutY="219.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat3" fitHeight="75.0" fitWidth="75.0" layoutX="312.0" layoutY="219.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat4" fitHeight="75.0" fitWidth="75.0" layoutX="413.0" layoutY="219.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat5" fitHeight="75.0" fitWidth="75.0" layoutX="24.0" layoutY="304.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat6" fitHeight="75.0" fitWidth="75.0" layoutX="125.0" layoutY="304.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat7" fitHeight="75.0" fitWidth="75.0" layoutX="312.0" layoutY="304.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat8" fitHeight="75.0" fitWidth="75.0" layoutX="413.0" layoutY="304.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat9" fitHeight="75.0" fitWidth="75.0" layoutX="24.0" layoutY="398.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat10" fitHeight="75.0" fitWidth="75.0" layoutX="125.0" layoutY="398.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat11" fitHeight="75.0" fitWidth="75.0" layoutX="312.0" layoutY="398.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat12" fitHeight="75.0" fitWidth="75.0" layoutX="413.0" layoutY="398.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat13" fitHeight="75.0" fitWidth="75.0" layoutX="24.0" layoutY="487.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat14" fitHeight="75.0" fitWidth="75.0" layoutX="125.0" layoutY="487.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat15" fitHeight="75.0" fitWidth="75.0" layoutX="312.0" layoutY="487.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat16" fitHeight="75.0" fitWidth="75.0" layoutX="413.0" layoutY="487.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat17" fitHeight="75.0" fitWidth="75.0" layoutX="24.0" layoutY="580.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat18" fitHeight="75.0" fitWidth="75.0" layoutX="125.0" layoutY="580.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat19" fitHeight="75.0" fitWidth="75.0" layoutX="312.0" layoutY="580.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="seat20" fitHeight="75.0" fitWidth="75.0" layoutX="413.0" layoutY="580.0" onMouseClicked="#selectSeat" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+      <Button layoutX="770.0" layoutY="694.0" mnemonicParsing="false" onAction="#bookingNow" prefHeight="40.0" prefWidth="159.0" styleClass="buttonBookingScene" stylesheets="@../res/style.css" text="Booking now" />
+      <ImageView fitHeight="33.0" fitWidth="30.0" layoutX="1155.0" layoutY="14.0" onMouseClicked="#exitButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/img/x.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
